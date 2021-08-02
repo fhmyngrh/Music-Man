@@ -1,10 +1,19 @@
-<h1 align="centre">🎵 BOT MUSIC MAN 🎵</h1>
+<h1 align="centre">ZELDA MUSIC BOT</h1>
 
-### A bot that can play music on Telegram Group and Channel Voice Chats
-#### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
-### Available on telegram as [@Musikmanbot](https://t.me/musikmanbot)
+<p align="center">
+   <img src="https://telegra.ph/file/39b26ec859943f363363f.jpg" width=350px>
+   <br>
+   <br>
+</p>
 
-<h2> Features 🔥 </h2>
+Bot yang dapat memutar musik di Obrolan Suara Grup dan Saluran Telegram.
+<br>
+<br>
+Powered By [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
+<br>
+Available on telegram as [@ZeldaMusicBot](https://t.me/ZeldaMusicBot)
+
+<h2>Features</h2>
 
 - Thumbnail Support
 - Playlist Support
@@ -15,26 +24,15 @@
 - Settings panel
 - Control with buttons
 - Userbot auto join
-- Channel Music Play
-- Keyboard selection support for youtube play
 
-## 🚀 Deployment
+## Deployment And Get String
 
-### 💜 Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fhmyngrh/Music-Man/tree/master)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mrismanaziz/Music-Man/tree/master)
+<a href="https://replit.com/@fhmyngrh/Zelda-String-Session"><img src="https://img.shields.io/badge/RUN-Get__String-red?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
 
-Get pyrogram (p)  `SESSION` from here:
-[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@mrismanaziz/stringenSession?lite=1&outputonly=1)
-
-### Commands for Group 🛠
+### Commands for Group
 #### For all in group
-
-- `/play <song name>` - play song you requested
-- `/play <reply to audio>` - play replied file
-- `/dplay <song name>` - play song you requested via deezer
-- `/splay <song name>` - play song you requested via jio saavn
-- `/ytplay <song name>`: Directly play song via Youtube Music
 - `/playlist` - Show now playing list
 - `/current` - Show now playing
 - `/song <song name>` - download songs you want quickly
@@ -44,6 +42,10 @@ Get pyrogram (p)  `SESSION` from here:
 - `/video <song name>` - download videos you want quickly
 
 #### Admins only.
+- `/play <song name>` - play song you requested
+- `/play <reply to audio>` - play replied file
+- `/dplay <song name>` - play song you requested via deezer
+- `/splay <song name>` - play song you requested via jio saavn
 - `/player` - open music player settings panel
 - `/pause` - pause song play
 - `/resume` - resume song play
@@ -52,12 +54,7 @@ Get pyrogram (p)  `SESSION` from here:
 - `/userbotjoin` - invite assistant to your chat
 - `/userbotleave` - remove assistant from your chat
 - `/admincache` - Refresh admin list
-- `/musicplayer [on/off]` - Enable/Disable Music Player
 
-### Commands for Sudo Users ⚔️
-- `/userbotleaveall` - remove assistant from all chats
-- `/gcast <reply to message>` - globally brodcast replied message to all chats
-- `/pmpermit [on/off]` - enable/disable pmpermit message
 
 #### Pmpermit
 - `.yes` - approove someone to pm you
@@ -70,19 +67,19 @@ Don't edit this part
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork Music Man won't exist. Music-Man is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic)
+This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork Music Man won't exist. 
+Music-Man is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic)
 
 #### Contribtors
 - [Risman](https://github.com/mrismanaziz)
 - [InukaASiTH](https://github.com/InukaAsith): Dev
-- [Technical-Hunter](https://github.com/Technical-Hunter): Dev
-- [Rojserbest](http://github.com/rojserbest): Dev
+- [Rojserbest](http://github.com/rojserbes): Dev
 - [Wrench](https://github.com/EverythingSuckz/): Dev
-- [Bemro](https://github.com/bemroofficial): Dev
 - [QueenArzoo](https://github.com/QueenArzoo): Dev
 - [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
+- [AuraXNetwork](https://github.com/AuraXNetwork/AuraXMusicBot)
 - [Hamker Cat](https://github.com/thehamkercat/)
 - [Anjana-Ma](https://github.com/Anjana-Ma): 
 - [ImJanindu](https://github.com/ImJanindu): 
-- [MARSHALX](https://github.com/MarshalX): TgCalls
-- [Original Repo owners](https://github.com/CallsMusic/CallsMusic)
+- [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
+- [Original Repo owners](https://github.com/suprojects/CallsMusic)
