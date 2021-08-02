@@ -24,47 +24,49 @@ class Messages():
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Selamat datang kembali di {PROJECT_NAME}
+**Hey 👋 Selamat datang kembali di {PROJECT_NAME}**
 
 ✣️ {PROJECT_NAME} dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah.
-
-✣️ Assistant Music » @{ASSISTANT_NAME}\n\nKlik Next untuk instruksi**
+✣️ Assistant Music » @{ASSISTANT_NAME}\n\nKlik Next untuk instruksi
 
 """,
 
 f"""
-**Pengaturan**
+🔧 **Pengaturan**
 
-1. Jadikan bot sebagai admin
-2. Mulai obrolan suara / VCG
+1. Jadikan Bot Sebagai Admin
+2. Mulai Obrolan Suara / VCG
 3. Ketik `/userbotjoin` dan coba /play <nama lagu>
-× Jika Assistant Bot bergabung selamat menikmati musik, 
-× Jika Assistant Bot tidak bergabung Silahkan Tambahkan @{ASSISTANT_NAME} ke grup Anda dan coba lagi
 
+* Jika Assistant Bot Telah Bergabung, Selamat Menikmati Musik.
+* Jika Assistant Bot Tidak Bergabung, silahkan tambahkan @{ASSISTANT_NAME} ke grup Anda dan coba lagi.
+* Jika Tetal Terjadi Masalah, Silakan Hubung @LordZelda
 
-**» Perintah Untuk dalam grup Member Juga Bisa :**
+┈──────────────────────┈
 
- × /play <judul lagu> : Untuk Memutar lagu yang Anda minta melalui youtube
-× /play <link yt> : Untuk Memutar lagu yang Anda minta melalui link youtube
-× /play <reply ke audio> : Untuk Memutar lagu yang Anda minta melalui file audio
-× /dplay : Untuk Memutar lagu yang Anda minta melalui deezer
-× /splay : Untuk Memutar lagu yang Anda minta melalui jio saavn
- × /playlist : Untuk Menampilkan daftar putar Lagu sekarang
- × /current : Untuk Menunjukkan  Lagu sekarang yang sedang diputar
- × /song <judul lagu> : Untuk Mendownload lagu di YouTube 
- × /video <judul lagu> : Untuk Mendownload Video di YouTube dengan detail
- × /vsong <judul lagu> : Untuk Mendownload Video di YouTube dengan detail
- × /deezer <judul lagu> : Untuk Mendownload lagu dari deezer 
- × /saavn <judul lagu> : Untuk Mendownload lagu dari website saavn
- × /search <judul lagu> : Untuk Mencari Video di YouTube dengan detail
+💬 **Perintah Untuk Seluruh Member :**
 
-**» Perintah Hanya Untuk Admin :**
+ * /play <judul lagu> : Untuk Memutar lagu yang Anda minta melalui YouTube
+ * /play <link yt> : Untuk Memutar lagu yang Anda minta melalui link YouTube
+ * /play <reply ke audio> : Untuk Memutar lagu yang Anda minta melalui file audio
+ * /playlist : Untuk Menampilkan daftar putar Lagu sekarang
+ * /current : Untuk Menunjukkan  Lagu sekarang yang sedang diputar
+ * /song <judul lagu> : Untuk Mendownload lagu di YouTube 
+ * /video <judul lagu> : Untuk Mendownload Video di YouTube dengan detail
+ * /vsong <judul lagu> : Untuk Mendownload Video di YouTube dengan detail
+ * /deezer <judul lagu> : Untuk Mendownload lagu dari Deezer 
+ * /saavn <judul lagu> : Untuk Mendownload lagu dari website Saavn
+ * /search <judul lagu> : Untuk Mencari Video di YouTube dengan detail
 
-× /skip : Untuk Menskip pemutaran lagu ke Lagu berikutnya
-× /pause : Untuk Menjeda pemutaran Lagu
-× /resume : Untuk Melanjutkan pemutaran Lagu yang di pause
-× /end : Untuk Memberhentikan pemutaran Lagu
-× /userbotjoin - Untuk Mengundang asisten ke obrolan Anda
-× /admincache - Untuk MemRefresh admin list
+🤖 **Perintah Hanya Untuk Admin :**
+
+ * /dplay : Untuk Memutar lagu yang Anda minta melalui Deezer
+ * /splay : Untuk Memutar lagu yang Anda minta melalui jio Saavn
+ * /skip : Untuk Menskip pemutaran lagu ke Lagu berikutnya
+ * /pause : Untuk Menjeda pemutaran Lagu
+ * /resume : Untuk Melanjutkan pemutaran Lagu yang di pause
+ * /end : Untuk Memberhentikan pemutaran Lagu
+ * /userbotjoin - Untuk Mengundang asisten ke obrolan Anda
+ * /admincache - Untuk MemRefresh admin list
 """
 	]

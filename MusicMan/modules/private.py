@@ -39,20 +39,20 @@ logging.basicConfig(level=logging.INFO)
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>┗┓ Haii {message.from_user.first_name} saya adalah {PROJECT_NAME} ┏┛\n
+        f"""👋 **Holla** {message.from_user.first_name}, saya adalah **{PROJECT_NAME}**\n
+┈──────────────────────┈
 Saya Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Dengan cara yang Mudah
 Saya Memiliki Banyak Fitur Praktis Seperti :
-┏━━━━━━━━━━━━━━
-┣• Memutar Musik.
-┣• Mendownload Lagu.
-┣• Mencari Lagu Yang ingin di Putar atau di Download.
-┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
-┗━━━━━━━━━━━━━━
-❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
-━━━━━━━━━━━━━━━
+➠ Memutar Musik.
+➠ Mendownload Lagu.
+➠ Mencari Lagu Yang ingin di Putar atau di Download.
+┈──────────────────────┈
+➠ Gunakan Perintah » /help « Untuk Mengetahui Fitur Lengkap saya
+┈──────────────────────┈
+❃ Managed With Love By {OWNER}
+┈──────────────────────┈
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
-</b>""",
+""",
 
 # Edit Yang Perlu Lu ganti 
 # Tapi Jangan di Hapus Thanks To nya Yaaa :D
@@ -64,12 +64,9 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "🤖 Pengembang", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
-                ],[
-                    InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "💬 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ]
             ]
         ),
@@ -103,7 +100,7 @@ def help_answer(client, callback_query):
 def map(pos):
     if (pos==1):
         return [
-            [InlineKeyboardButton(text = 'Next »', callback_data = "help+2")]
+            [InlineKeyboardButton(text = '▶️', callback_data = "help+2")]
         ]
     elif pos==len(tr.HELP_MSG)-1:
         url = f"https://t.me/{SUPPORT_GROUP}"
@@ -116,26 +113,21 @@ def map(pos):
             ],
             [
                 InlineKeyboardButton(
-                    text='💬 Channel Updates',
-                    url=f"https://t.me/{UPDATES_CHANNEL}",
+                    text='💬 Group Chat',
+                    url=f"https://t.me/{SUPPORT_GROUP}",
                 ),
                 InlineKeyboardButton(
-                    text='⛑ Group Support', url=f"https://t.me/{SUPPORT_GROUP}"
+                    text='🤖 Pebgembang', url=f"https://t.me/{UPDATES_CHANNEL}"
                 ),
             ],
-            [
-                InlineKeyboardButton(
-                    text='🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}"
-                )
-            ],
-            [InlineKeyboardButton(text='«', callback_data=f"help+{pos-1}")],
+            [InlineKeyboardButton(text='◀️', callback_data=f"help+{pos-1}")],
         ]
 
     else:
         return [
             [
-                InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}"),
-                InlineKeyboardButton(text = '»', callback_data = f"help+{pos+1}")
+                InlineKeyboardButton(text = '◀️', callback_data = f"help+{pos-1}"),
+                InlineKeyboardButton(text = '▶️', callback_data = f"help+{pos+1}")
             ],
         ]
 
